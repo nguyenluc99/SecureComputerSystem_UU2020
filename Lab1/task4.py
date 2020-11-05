@@ -1,7 +1,4 @@
-import numpy
 import os
-
-filename = "sample.txt"
 
 # run normally
 def part_1(filename):
@@ -30,9 +27,9 @@ def part_3(filename):
 
 
 def main():
-    print("xxxx")
-    print("1. Task 1. \n 2. Task 2. \n 3. Task 3.\n")
-    task = int(input("Input task to run: "))
+    print(" 1. Task 1. \n 2. Task 2. \n 3. Task 3.\n")
+    task = int(input(" Input task to run: "))
+    filename = "sample.txt"
     if task == 1:
         part_1(filename)
     elif task == 2:
