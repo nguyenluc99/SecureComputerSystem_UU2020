@@ -27,7 +27,7 @@ def part_3(filename):
 
 
 def main():
-    print(" 1. Task 1. \n 2. Task 2. \n 3. Task 3.\n")
+    print(" 1. Part a. \n 2. Part b. \n 3. Part c.\n")
     task = int(input(" Input task to run: "))
     filename = "sample.txt"
     if task == 1:
